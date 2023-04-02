@@ -10,10 +10,8 @@ class CodeDetectiveCommand extends Command
 
     public $description = 'Detect and manage code issues with per-file logging.';
 
-    public function handle(): int
+    public function handle(): void
     {
         $this->comment('All done');
-
-        return self::SUCCESS;
     }
 }
