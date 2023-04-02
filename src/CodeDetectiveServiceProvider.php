@@ -2,9 +2,9 @@
 
 namespace Matakltm\CodeDetective;
 
+use Matakltm\CodeDetective\Commands\CodeDetectiveCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Matakltm\CodeDetective\Commands\CodeDetectiveCommand;
 
 class CodeDetectiveServiceProvider extends PackageServiceProvider
 {
