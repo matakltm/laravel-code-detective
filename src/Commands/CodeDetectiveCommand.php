@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class CodeDetectiveCommand extends Command
 {
-    public $signature = 'laravel-code-detective';
+    public $signature = 'issues';
 
     public $description = 'Detect and manage code issues with per-file logging.';
 
